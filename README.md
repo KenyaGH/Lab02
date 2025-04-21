@@ -3,7 +3,7 @@
 # Part 1 - Creating Directories
 
 Use mkdir to create the following directories. Remember the -p option:
-
+```
 project
     ├── archives     
     ├── documents
@@ -16,11 +16,11 @@ project
     └── programs
         └── tools
         └── fun
-
+```
 # Part 2 - File Creation
 
 Use touch to create files at the following locations:
-
+```
 project
     ├── archives
     ├── documents
@@ -40,7 +40,7 @@ project
     └── programs
         └── tools
         └── fun
-
+```
 # Part 3 - File/Directory Operations
 
 ## Tasks
