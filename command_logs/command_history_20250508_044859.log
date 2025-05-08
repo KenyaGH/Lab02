@@ -1,0 +1,25 @@
+[2025-05-08 04:48:59] [/workspaces/Lab02] source .devcontainer/shell.sh
+[2025-05-08 04:51:35] [/workspaces/Lab02] mkdir -p project/{archives,documents/{frontend,backend},pictures/{jan,feb,march},programs/{tools,fun}}
+[2025-05-08 04:51:49] [/workspaces/Lab02] touch project/documents/frontend/design.txt
+[2025-05-08 04:52:08] [/workspaces/Lab02] touch project/documents/frontend/issues.txt
+[2025-05-08 04:52:44] [/workspaces/Lab02] touch project/documents/backend/api.txt
+[2025-05-08 04:52:54] [/workspaces/Lab02] touch project/documents/backend/issues.txt
+[2025-05-08 04:53:05] [/workspaces/Lab02] touch project/pictures/jan/locations.txt
+[2025-05-08 04:53:14] [/workspaces/Lab02] touch project/pictures/feb/locations.txt
+[2025-05-08 04:53:24] [/workspaces/Lab02] touch project/pictures/march/locations.txt
+[2025-05-08 04:55:06] [/workspaces/Lab02] mv picture1.jpg project/pictures/
+[2025-05-08 04:55:13] [/workspaces/Lab02] mv picture2.jpg project/pictures/
+[2025-05-08 04:55:20] [/workspaces/Lab02] mv picture3.jpg project/pictures/
+[2025-05-08 04:59:18] [/workspaces/Lab02] ls -lt project/pictures/jan
+[2025-05-08 05:04:39] [/workspaces/Lab02] find project/pictures
+[2025-05-08 05:09:22] [/workspaces/Lab02] ln -s compile.sh project/programs/tools/compile.sh
+[2025-05-08 05:09:40] [/workspaces/Lab02] ln moosay.sh project/programs/fun/moosay.sh
+[2025-05-08 05:10:29] [/workspaces/Lab02] mv compile.sh moosay.sh project/programs/
+[2025-05-08 05:13:34] [/workspaces/Lab02] mktemp -d -p project tmp1_XXXX
+[2025-05-08 05:13:45] [/workspaces/Lab02] mktemp -d -p project tmp2_XXXX
+[2025-05-08 05:13:53] [/workspaces/Lab02] mktemp -d -p project tmp3_XXXX
+[2025-05-08 05:14:03] [/workspaces/Lab02] mktemp -p project/tmp1_XXXX temp_file_XXXX
+[2025-05-08 05:16:32] [/workspaces/Lab02] tmpdir=$(mktemp -d -p project tmpdir_XXXX)
+[2025-05-08 05:16:34] [/workspaces/Lab02] mktemp -p "$tmpdir" temp_file_XXXX
+[2025-05-08 05:16:54] [/workspaces/Lab02] rmdir project/tmp*
+[2025-05-08 05:17:24] [/workspaces/Lab02] rm -r project/tmp*
